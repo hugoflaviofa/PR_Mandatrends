@@ -1,36 +1,45 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
 body {
+    margin-top: 0;
+    width: 95vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: gainsboro;
 }
 
 .container {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: white;
     /* gap: 10px; */
 }
 
-.container .box {
+.container .main-news {
     width: 90%;
     /* border: yellow solid 3px; */
     font-family: sans-serif;
 }
 
-.container .box h1 {
+.container .main-news h1 {
     /* color: blue; */
     font-size: 3.5vw;
     font-weight: bolder;
     margin-bottom: 0px ;
 }
 
-.container .box .box-p {
+.container .main-news .main-news-p {
     width: 90%;
     font-size: 2vw;
     opacity: 60%;
 }
 
-.container .box p {
+.container .main-news p {
     margin-top: 0.5vh;
 }
 
@@ -39,7 +48,7 @@ body {
     /* border: green solid 2px; */
 }
 
-#frist-img2 {
+#second-img {
     width: 100%;
     /* border: red solid 2px; */
 }
