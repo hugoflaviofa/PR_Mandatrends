@@ -39,6 +39,22 @@ body {
     opacity: 60%;
 }
 
+.main-news-fonte {
+    font-style: italic;
+    opacity: 30%;
+    font-size: 1.7vw;
+    margin-bottom: 0.8vh;
+}
+
+.main-news-hr {
+    width: 38vw;
+    height: 0.7vh;
+    background: linear-gradient(to right, #ff0000, #816bfd);
+    border: 0;
+    justify-self: flex-start;
+    margin: 0;
+}
+
 .container .main-news p {
     margin-top: 0.5vh;
 }
