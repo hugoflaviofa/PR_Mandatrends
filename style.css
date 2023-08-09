@@ -72,14 +72,18 @@ body {
     background-color: white;
     display: flex;
     flex-direction: row;
-    gap: 2vw;
+    gap: 4vw;
     align-self: flex-start;
     margin-top: 5vh;
 }
 
-.sub-container-one img {
+.sub-container-one {
     width: 38vw;
     height: 30vh;
+}
+
+.sub-container-one img {
+    width: 100%;
 }
 
 .sub-container-one h1,
@@ -101,7 +105,12 @@ body {
     background: linear-gradient(to right, #00afce, #00ca22);
 }
 
-.sub-container-two img {
-    width: 45.5vw;
+.sub-container-two {
+    width: 39.8vw;
     height: 30vh;
+}
+
+.sub-container-two img {
+    width: 100%;
+    border-right: hsla(130, 81%, 45%, 0.89) solid 3vw;
 }
