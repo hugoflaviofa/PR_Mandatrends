@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: gainsboro;
+    background-color: rgb(235, 235, 235);
 }
 
 .main-container {
@@ -74,7 +74,7 @@ body {
     flex-direction: row;
     gap: 2vw;
     align-self: flex-start;
-    margin-top: 4vh;
+    margin-top: 5vh;
 }
 
 .sub-container-one img {
@@ -82,7 +82,8 @@ body {
     height: 30vh;
 }
 
-.sub-container-one h1 {
+.sub-container-one h1,
+.sub-container-two h1 {
     /* border: red solid 2px; */
     margin-top: 1vh;
     margin-bottom: 1vh !important;
@@ -93,6 +94,11 @@ body {
 .sub-container-one hr {
     width: 24vw;
     background: linear-gradient(to right, #00afce, #816bfd);
+
+}
+.sub-container-two hr {
+    width: 24vw;
+    background: linear-gradient(to right, #00afce, #00ca22);
 }
 
 .sub-container-two img {
